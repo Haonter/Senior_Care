@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Care</title>
+    <link rel="icon" href="../img/Senior_Care_Logo_2.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/output.css">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      body{
+        overflow-x: hidden;
+        background-color: #DDD
+      }
+
+      @media (min-width: 1024px){
+        .clip{
+          clip-path: polygon(0 0, 100% 0, 100% 28%, 70% 100%, 0 100%);
+        }
+      }
+
+      @media (min-width: 768px){
+        .clip{
+          clip-path: polygon(0 0, 100% 0, 100% 55%, 60% 100%, 0 100%);
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-blanco2 w-full relative">
+    <fondo class="clip absolute bg-[url('../img/fondo2.jpg')] bg-cover w-full z-[-10] lg:h-[350px] xl:h-[420px]"></fondo> 
+    <gradiente class="clip bg-gradient-to-r from-azul1/90 to-azul5/90 absolute w-full xl:h-[420px]"></gradiente>
+    <img src="../img/Senior_Care_Logo_2.webp" alt="Logo" class="animate__animated animate__fadeInTopRight animate__slow absolute hidden md:block md:w-40 md:top-[12%] md:left-[75%] lg:w-52 lg:top-[15%] xl:w-72 xl:top-[10%] xl:left-[75%] z-20">
+    <header class="clip w-full lg:h-[350px] xl:h-[420px] px-[5%] md:px-[7%] lg:px-[10%]">
+      <nav class="flex w-full xl:h-28 justify-center items-center z-10">
+        <div class="flex justify-between items-center w-auto gap-4">
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Inicio</a>
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Sobre Nosotros</a>
+          <a class="text-blanco2 hidden md:block font-semibold hover:animate-grow hover:underline" href="#">Contacto</a>
+          <a class="bg-azul1 text-blanco2 hover:animate-grow2 hover:bg-azul0 px-2.5 py-1.5 rounded-2xl font-semibold" href="">Whatsapp</a>
+        </div>
+      </nav>
+      
+      <div class="pt-5">
+        <h1 class="animate__animated animate__fadeIn animate__slow animate__delay-0.5s text-blanco2 xl:text-5xl font-bold font-didactGotic">Senior Care</h1>
+        <h2 class="animate__animated animate__fadeIn animate__slow animate__delay-0.5s text-blanco1 xl:text-2xl font-actor xl:mb-3.5">Dignidad, confort y cuidado para nuestros mayores</h2>
+        <p class="animate__animated animate__fadeIn animate__slow animate__delay-1s xl:w-[32rem] text-blanco1 testimonio xl:text-md font-actor">En <span class="font-bold">Senior Care</span>, nos dedicamos a proporcionar cuidados integrales y personalizados para personas mayores, con un enfoque en la dignidad, la comodidad y el bienestar de cada individuo. Nuestro equipo de profesionales capacitados está aquí para ofrecer el apoyo necesario para que tus seres queridos disfruten de una vida plena y feliz en la comodidad de su hogar.</p>
+      </div>
+    </header>
+    
+    <!-- Caracteristicas -->
+    <main class="flex flex-col xl:gap-12 xl:px-[10%] xl:pt-12 xl:pb-8 z-10">
+
+      <!-- Sobre Nosotros -->
+      <section class="flex flex-col">
+        <h1 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mb-4">¿Por que elegirnos?</h1>
+        <div class="flex xl:gap-5">
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Experiencia y profesionalismo</h3>
+            <p class="text-justify text-azul1 text-md">Con años de experiencia en el cuidado de personas mayores, nuestro equipo está altamente capacitado para abordar las necesidades físicas, emocionales y sociales de cada individuo.</p>
+          </div>  
+          
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Atención personalizada</h3>
+            <p class="text-justify text-azul1 xl:text-md">Nos comprometemos a proporcionar una atención personalizada y centrada en el individuo, adaptada a las necesidades y preferencias de cada persona.</p>
+          </div>
+          
+          <div class="bg-gradient-to-r from-blanco1/10 via-blanco3/15 to-blanco1/10 px-3 py-6 rounded-2xl">
+            <h3 class="font-actor font-bold xl:text-xl text-azul3 xl:mb-1">Calidad de vida</h3>
+            <p class="text-justify text-azul1 xl:text-md">Nuestro objetivo es mejorar la calidad de vida de nuestros residentes, fomentando la independencia, la autonomía y la participación en actividades significativas.</p>
+          </div>
+        </div>  
+        
+        <!-- Alianzas -->
+          <div class="flex flex-col xl:gap-2">
+            <h2 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mt-12">Nuestras alianzas</h2>
+            <div class="flex justify-center items-center rounded-2xl py-6 bg-gradient-to-r from-blanco1/10 via-blanco1/20 to-blanco1/10 xl:gap-10">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner1.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner2.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner3.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner4.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner1.png" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner2.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner3.jpg" alt="Alianza">
+              <img class="xl:w-24 mix-blend-multiply" src="../img/partner4.png" alt="Alianza">
+            </div>   
+          </div>
+      </section>
+      
+      <!-- Reseñas -->
+      <section class="flex flex-col items-center gap-12">
+        <!-- Abuelos -->
+        <div class="flex flex-col">
+          <h2 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mb-4">Reseñas de los residentes</h2>
+          <div class="grid grid-cols-4 gap-4">
+            <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+              <img class="rounded-full w-[150px]" src="../img/abuelo1.webp" alt="abuelos">
+              <h3 class="text-azul1 font-bold text-lg">Carmen González</h3>
+              <p class="text-center text-sm font-[400]">Me encanta vivir en Senior Care. La atención es excelente y siempre me siento bien cuidado. La comida es deliciosa y variada, y las actividades siempre son divertidas y estimulantes. La enfermera a cargo es muy atenta y siempre está dispuesta a ayudar con una sonrisa.</p>
+            </div>
+            
+            <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+              <img class="rounded-full w-[150px]" src="../img/abuelo2.webp" alt="abuelos">
+              <h3 class="text-azul1 font-bold text-lg">Manuel lopez</h3>
+              <p class="text-center text-sm font-[400]">Senior Care es un lugar fantástico. La comida es deliciosa y siempre hay algo interesante para hacer. Las actividades son variadas y me mantienen activa. La atención médica también es de alta calidad, y me siento seguro sabiendo que la enfermera siempre está cerca.</p>
+            </div>
+            
+            <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+              <img class="rounded-full w-[150px]" src="../img/abuelo3.webp" alt="abuelos">
+              <h3 class="text-azul1 font-bold text-lg">Francisco Torres</h3>
+              <p class="text-center text-sm font-[400]">Estoy muy contento en Senior Care. La atención es de primera, y las actividades son variadas y entretenidas. La enfermera a cargo es siempre profesional y amable, y la comida es excelente. Me siento como en casa aquí.</p>
+            </div>
+            
+            <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+              <img class="rounded-full w-[150px]" src="../img/abuelo4.webp" alt="abuelos">
+              <h3 class="text-azul1 font-bold text-lg">Ana Luisa González</h3>
+              <p class="text-center text-sm font-[400]">Senior Care es un gran lugar para vivir. La atención es maravillosa y siempre me siento bien cuidado. Las actividades son entretenidas y la comida es también muy buena. La enfermera a cargo es muy dedicada y profesional, lo cual aprecio mucho.</p>
+            </div>
+          </div>
+        </div>   
+        
+        
+        <!-- Hijos -->
+          <div class="flex flex-col">
+            <h2 class="font-didactGotic xl:text-2xl font-bold text-azul1 xl:mb-4">Reseñas de los familiares</h2>
+            <div class="grid grid-cols-4 gap-4">
+              <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+                <img class="rounded-full w-[150px]" src="../img/hijo1.webp" alt="hijos">
+                <h3 class="text-azul1 font-bold text-lg">Jean Carlos González</h3>
+                <p class="text-center text-sm font-[400]">Estamos muy contentos con Senior Care. Mi madre recibe una atención excepcional y ha hecho muchos amigos gracias a las actividades sociales. La enfermera es muy profesional y siempre está pendiente de su salud. Mi madre también comenta que la comida es deliciosa y variada.</p>
+              </div>
+              
+              <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+                <img class="rounded-full w-[150px]" src="../img/hijo2.webp" alt="hijos">
+                <h3 class="text-azul1 font-bold text-lg">Diana Cecilia Lopez</h3>
+                <p class="text-center text-sm font-[400]">Senior Care ha sido una bendición para mi padre. El disfruta mucho de las actividades diarias y siempre comenta lo buena que es la comida. La enfermera a cargo es increíblemente atenta y siempre está disponible para cualquier necesidad. Nos sentimos muy tranquilos sabiendo que está en buenas manos.</p>
+              </div>
+              
+              <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+                <img class="rounded-full w-[150px]" src="../img/hijo3.webp" alt="hijos">
+                <h3 class="text-azul1 font-bold text-lg">Martin Ismael Torres</h3>
+                <p class="text-center text-sm font-[400]">Desde que mi padre se mudó a Senior Care, hemos notado una gran mejoría en su estado de ánimo. La atención que recibe es de primera calidad y disfruta mucho participando en las diversas actividades. Aunque no menciona mucho la comida, parece satisfecho con ella. La enfermera siempre se asegura de que esté bien.</p>
+              </div>
+              
+              <div class="bg-blanco1/70 flex flex-col items-center py-4 px-3 rounded drop-shadow-sm hover:shadow-lg hover:animate-growsoft">
+                <img class="rounded-full w-[150px]" src="../img/hijo4.webp" alt="hijos">
+                <h3 class="text-azul1 font-bold text-lg">Ana Luisa González</h3>
+                <p class="text-center text-sm font-[400]">Senior Care ha sido fantástico para mi abuelo. Las actividades lo mantienen ocupado y feliz, y siempre comenta lo deliciosa que es la comida. Aunque la atención médica es excelente, lo que más destaca es el trato amable y atento de todo el personal.</p>
+              </div>
+            </div>
+          </div> 
+      </section>
+      
+      <!-- Contacto -->
+      <section></section>
+      
+    </main>
+    
+    <footer class="flex flex-col items-center justify-center gap-6 bg-gradient-to-tr from-azul1/90 to-azul4/90 text-blanco2 px-[10%] relative h-[300px]">
+      <fondo class="absolute bg-[url('../img/footer_fondo.webp')] bg-cover w-full z-[-10] left-0 top-0 h-[300px]"></fondo> 
+      <div class="flex justify-between items-center gap-[23rem] mb-4">
+        <div>
+          <h3 class="font-didactGotic text-2xl font-bold">Senior Care</h3>
+          <p class="text-sm">Dignidad, confort y cuidado para nuestros mayores</p>
+        </div>
+        <div>
+          <h3 class="font-didactGotic text-2xl font-bold">Contacto</h3>
+          <p class="text-sm">Dirección: 123 Calle Principal, Ciudad, País</p>
+          <p class="text-sm">Teléfono: +123 456 7890</p>
+          <p class="text-sm">Correo: <a href="mailto:seniorcare@gmail.com">seniorcare@gmail.com</a></p>
+        </div>
+      </div>
+      <hr class="w-full">
+      <nav class="flex justify-center items-center gap-8 text-blanco2 h-14">
+        <a class="hover:underline" href="#">Inicio</a>
+        <a class="hover:underline" href="#sobre_nosotros">Sobre Nosotros</a>
+        <a class="hover:underline" href="#contacto">Contacto</a>
+      </nav>
+    </footer>
+  </body>
+</html>
