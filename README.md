@@ -1,2 +1,2 @@
-# Deploy_Netlify
- Repo de practica sobre deploy (Grupo 16)
+Senior Care.
+Practica realizada en vivo durante una clase del Grupo de estudiantes N° 16 de Lexpin.
